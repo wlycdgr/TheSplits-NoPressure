@@ -22,3 +22,5 @@ player_reticle = instance_create_layer(not_set, not_set, "PLayer", obj_Player_Re
 player_bullet_manager = instance_create_layer(not_set, not_set, "Player", obj_Player_Bullet_Manager);
 player_bullet_manager.avatar = player_avatar;
 player_bullet_manager.reticle = player_reticle;
+
+letterbox_top = instance_create_layer(0, -room_height, "Letterboxes", obj_Letterbox_Top);

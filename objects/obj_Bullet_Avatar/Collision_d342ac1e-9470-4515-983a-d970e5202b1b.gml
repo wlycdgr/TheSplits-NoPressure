@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = 5;
-radius = 15;
+if (y - radius < other.y + room_height) {
+	instance_destroy();
+}

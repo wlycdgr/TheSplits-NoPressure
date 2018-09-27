@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-speed = 5;
-radius = 15;
+if (y + room_height > other.y - other.radius){
+	wly_speed -= 0.5;
+}
