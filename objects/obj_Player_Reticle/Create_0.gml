@@ -14,3 +14,5 @@ input_vaxis = gp_axisrv;
 
 x = window_x_center;
 y = room_height / 2 - 50;
+
+dead = false;

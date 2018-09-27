@@ -36,7 +36,7 @@ case gs_playing:
 	if (global.input_tracker.is_pause_pressed) 
 		{ event_user(1); } // on pause
 	
-	if (player_avatar.dead)
+	if (player_avatar.dead || player_reticle.dead)
 		{ event_user(0); }
 		
 	break;
