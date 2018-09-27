@@ -591,6 +591,14 @@
             }
         },
         {
+            "Key": "6f32681e-27c3-42a1-9f92-f2002d96afe6",
+            "Value": {
+                "id": "2ada6543-c17f-4632-940f-02723aa26dd4",
+                "resourcePath": "objects\\obj_Letterbox_Bottom\\obj_Letterbox_Bottom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7091280d-4684-4d6e-8534-618171da6649",
             "Value": {
                 "id": "0f16740a-500e-4b7e-8dd8-20baedea482b",
