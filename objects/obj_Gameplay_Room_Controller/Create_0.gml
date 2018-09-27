@@ -14,3 +14,7 @@ paused_sliding_ribbon = instance_create_layer(
 // has just been deactivated
 steam_overlay_activated_this_step = false;
 steam_overlay_activated_last_step = false;
+
+// NO PRESSURE SPECIFIC
+player_avatar = instance_create_layer(not_set, not_set, "Player", obj_Player_Avatar);
+player_reticle = instance_create_layer(not_set, not_set, "PLayer", obj_Player_Reticle);

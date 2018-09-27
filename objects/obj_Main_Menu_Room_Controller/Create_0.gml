@@ -1,14 +1,14 @@
 /// @description Init
 
 
-var title1_text = "REPLACE";
+var title1_text = "NO";
 title1_size = 0.181;
 var title1_weight = 0.062;
 var title1_kern = 0.078;
 var title1_rotationSpeed = 0;
 var title1_angle = 0;
 
-var title2_text = "THIS";
+var title2_text = "PRESSURE";
 var title2_size = 0.122;
 var title2_weight = 0.008;
 var title2_kern = 0.059;

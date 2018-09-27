@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
-radius = 50;
-event_inherited();
+radius = 20;
+color = c_black;
+is_outline = false;
 
-//if gamepad_is_connected(0) gamepad_set_axis_deadzone(0, 0.05);
+wly_speed = 5;
+
+input_haxis = gp_axislh;
+input_vaxis = gp_axislv;
+
+x = window_x_center;
+y = room_height / 2;

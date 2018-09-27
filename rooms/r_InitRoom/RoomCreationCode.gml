@@ -2,6 +2,9 @@
 // may wanna disable this for debugging.
 randomise();
 
+// nice circles for No Pressure
+draw_set_circle_precision(64);
+
 // Load up our macros and set our global vars
 script_execute(scr_MACROS_and_GLOBALS);
 script_execute(scr_Splitsfont_Reset_DefaultTweaks);
@@ -14,4 +17,4 @@ global.escaper = instance_create_layer(0, 0, "Instances", obj_Escaper);
 global.game_settings = instance_create_layer(0, 0, "Instances", obj_Game_Settings);
 global.room_state_tracker = instance_create_layer(0, 0, "Instances", obj_Room_State_Tracker);
 
-room_goto(r_GameMakerAndRaylibLogos);
+room_goto(r_MainMenu);
