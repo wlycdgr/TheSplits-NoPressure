@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+max_radius = 30;
+min_radius = 5;
+radius = 15;
+
 radius = 20;
 color = c_black;
 is_outline = false;

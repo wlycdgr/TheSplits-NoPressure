@@ -751,6 +751,14 @@
             }
         },
         {
+            "Key": "ab24aa49-1039-4f07-ab3c-56d4da2342cd",
+            "Value": {
+                "id": "7793f1c8-9d99-48b3-93ef-6ed50062ff83",
+                "resourcePath": "objects\\obj_Player_Bullet_Manager\\obj_Player_Bullet_Manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "aba5c1fe-9257-45a5-940d-c0017f082c6a",
             "Value": {
                 "id": "d807f90c-1f86-4f11-8cfd-39a0bb428f67",
@@ -795,6 +803,14 @@
             "Value": {
                 "id": "9c72c8d3-6106-4a60-ba22-60a4508278c8",
                 "resourcePath": "objects\\obj_GameMaker_And_Raylib_Logos_Room_Controller\\obj_GameMaker_And_Raylib_Logos_Room_Controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b3fb6553-f437-4ca5-a8a7-579a810309ca",
+            "Value": {
+                "id": "7f9d2cb2-6caa-46be-ba1c-8f081742bb59",
+                "resourcePath": "objects\\obj_Bullet_Avatar\\obj_Bullet_Avatar.yy",
                 "resourceType": "GMObject"
             }
         },
