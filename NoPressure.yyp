@@ -1071,6 +1071,14 @@
             }
         },
         {
+            "Key": "f6f497c5-9f42-42b5-b23b-0ce3ca94c7e5",
+            "Value": {
+                "id": "860cc1d6-9163-4fa6-9019-d3ca20baee1f",
+                "resourcePath": "objects\\obj_Bullet_Reticle\\obj_Bullet_Reticle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f812f3ab-7317-422a-a9b4-cd61ef9f2ad6",
             "Value": {
                 "id": "a9240952-66b6-4172-8ce7-daf063adcc1e",

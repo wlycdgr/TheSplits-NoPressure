@@ -4,4 +4,4 @@ avatar = -1;
 reticle = -1;
 
 avatar_fire_button = gp_shoulderrb;
-reticle_fire_button = gp_face3;
+reticle_fire_button = gp_shoulderlb;

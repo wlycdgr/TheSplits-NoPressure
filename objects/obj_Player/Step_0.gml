@@ -1,5 +1,12 @@
 /// @description Capture and apply analog stick input
 // You can write your code in this editor
+if (radius < max_radius) {
+	radius += 0.2;
+	if (radius > max_radius){
+		radius = max_radius;
+	}
+}
+
 xv = gamepad_axis_value(0, input_haxis);
 yv = gamepad_axis_value(0, input_vaxis);
 
