@@ -12,7 +12,7 @@ wly_speed = 20;
 input_haxis = gp_axisrh;
 input_vaxis = gp_axisrv;
 
-x = window_x_center;
+x = room_width * (3 / 4);
 y = room_height / 2 - 50;
 
 dead = false;

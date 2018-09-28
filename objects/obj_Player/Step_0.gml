@@ -22,4 +22,3 @@ move_towards_point(
 	y + yv*100,
 	mag_point * wly_speed
 );
-
