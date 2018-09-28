@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "009da338-2d5b-4cc7-b707-afb1202187b3",
+            "Value": {
+                "id": "b080f4f1-cee2-4579-9d9d-7313a1e7525c",
+                "resourcePath": "sprites\\spr_sideline\\spr_sideline.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "017aa229-f4ae-40a9-a3d7-82caa4437850",
             "Value": {
                 "id": "5f14f3a1-07f1-4f98-92a9-714fc1aadc3e",
@@ -292,6 +300,14 @@
                 "id": "6ab21b02-c591-4332-8daf-f70854e57809",
                 "resourcePath": "rooms\\r_Tutorial\\r_Tutorial.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3a65c425-b225-4225-8326-ec88eb610280",
+            "Value": {
+                "id": "c51f3f94-1709-4afd-a96b-b5905ab44a6d",
+                "resourcePath": "objects\\obj_Sideline_Right\\obj_Sideline_Right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -963,6 +979,14 @@
             "Value": {
                 "id": "98e97eab-6ae2-4edb-90a6-b65b38179317",
                 "resourcePath": "objects\\obj_Room_State_Tracker\\obj_Room_State_Tracker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d345ea43-9255-40d5-89c6-1fd790a85320",
+            "Value": {
+                "id": "bd3c2243-f59a-4f99-81b1-b2a526fcdcc3",
+                "resourcePath": "objects\\obj_Sideline_Left\\obj_Sideline_Left.yy",
                 "resourceType": "GMObject"
             }
         },

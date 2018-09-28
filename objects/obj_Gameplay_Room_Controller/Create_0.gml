@@ -25,3 +25,6 @@ player_bullet_manager.reticle = player_reticle;
 
 letterbox_top = instance_create_layer(0, -room_height - 10, "Letterboxes", obj_Letterbox_Top);
 letterbot_bottom = instance_create_layer(0, room_height + 10, "Letterboxes", obj_Letterbox_Bottom);
+
+sideline_left = instance_create_layer(-18, 0, "Letterboxes", obj_Sideline_Left);
+sideline_right = instance_create_layer(room_width + 10, 0, "Letterboxes", obj_Sideline_Right);
