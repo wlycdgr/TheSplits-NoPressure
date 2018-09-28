@@ -4,10 +4,6 @@ max_radius = 30;
 min_radius = 10;
 radius = 20;
 
-radius = 20;
-color = c_black;
-is_outline = false;
-
 wly_speed = 5;
 
 input_haxis = gp_axislh;
@@ -16,4 +12,4 @@ input_vaxis = gp_axislv;
 x = room_width * (1 / 4);
 y = room_height / 2;
 
-dead = false;
+event_inherited();
