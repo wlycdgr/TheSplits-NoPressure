@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 var total_speed = 4;
-hspeed = random(total_speed);
+hspeed = 1 + random(2);
 vspeed = total_speed - hspeed;
 hspeed *= choose(-1, 1);
 vspeed *= choose(-1, 1);
 
+r = 8;
 
 //direction = random(359);
 //speed = 4;

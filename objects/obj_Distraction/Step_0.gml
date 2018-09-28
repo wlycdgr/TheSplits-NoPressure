@@ -1,10 +1,13 @@
-/// @description Insert description here
+/// @description Collisions, growth
 // You can write your code in this editor
-move_bounce_solid(false);
 
+r += 0.01;
 
-//color_hsv += color_hsv_change_per_frame;
-//if (color_hsv > 255){
-//	color_hsv = 0;
-//}
-//color = make_color_hsv(color_hsv, 200, 200);
+// Letterbox collisions
+event_user(0);
+
+// Sideline collisions
+event_user(1);
+
+// Avatar bullet collisions
+event_user(2);
