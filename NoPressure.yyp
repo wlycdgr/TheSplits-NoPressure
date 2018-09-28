@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0611ab27-8f49-4ce6-95fc-7d6e0eeafb07",
+            "Value": {
+                "id": "92d23753-18de-421a-b6db-2f15cfe98c7e",
+                "resourcePath": "objects\\obj_Sideline\\obj_Sideline.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "082e56eb-0501-42ad-9459-00bb0e0d785c",
             "Value": {
                 "id": "5c6a4de1-761d-4618-b813-308fc07cf4fe",
@@ -268,6 +276,14 @@
                 "id": "c68f3a91-b73f-4203-84a0-8f3df68671c3",
                 "resourcePath": "views\\3338708d-3b5f-4596-ab35-da41589b83c9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "35d1e380-66c0-4cef-9cae-226969250ec1",
+            "Value": {
+                "id": "0758775e-cab3-4579-b9d2-e1769b02ac94",
+                "resourcePath": "objects\\obj_Letterbox\\obj_Letterbox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1055,6 +1071,14 @@
             }
         },
         {
+            "Key": "ddbccc0d-a09b-4922-a7f9-e028e4cc1b9b",
+            "Value": {
+                "id": "632ac091-94f6-4b61-8ca8-66ab6f473a63",
+                "resourcePath": "objects\\obj_Distraction_Manager\\obj_Distraction_Manager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e23a7fd3-0b94-4cc0-b500-0a5e16221018",
             "Value": {
                 "id": "ec76b28c-1472-4f50-bcae-de59f248cd31",
@@ -1108,6 +1132,14 @@
                 "id": "17427d63-a78a-4499-b9e2-46a8fa79c089",
                 "resourcePath": "scripts\\scr_Splitsfont_Get_Width\\scr_Splitsfont_Get_Width.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ef5e393a-95ed-407f-a063-0d5b05d2c2d5",
+            "Value": {
+                "id": "c9cec320-5045-44b6-86ca-2af177b3eaf4",
+                "resourcePath": "sprites\\spr_24x24\\spr_24x24.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

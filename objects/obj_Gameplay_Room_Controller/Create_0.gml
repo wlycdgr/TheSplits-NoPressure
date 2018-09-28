@@ -23,12 +23,10 @@ player_bullet_manager = instance_create_layer(not_set, not_set, "Player", obj_Pl
 player_bullet_manager.avatar = player_avatar;
 player_bullet_manager.reticle = player_reticle;
 
-letterbox_top = instance_create_layer(0, -room_height - 10, "Letterboxes", obj_Letterbox_Top);
-letterbot_bottom = instance_create_layer(0, room_height + 10, "Letterboxes", obj_Letterbox_Bottom);
+letterbox_top = instance_create_layer(0, -room_height - 180, "Letterboxes", obj_Letterbox_Top);
+letterbot_bottom = instance_create_layer(0, room_height + 180, "Letterboxes", obj_Letterbox_Bottom);
 
-sideline_left = instance_create_layer(-18, 0, "Letterboxes", obj_Sideline_Left);
-sideline_right = instance_create_layer(room_width + 10, 0, "Letterboxes", obj_Sideline_Right);
+sideline_left = instance_create_layer(-188, 0, "Letterboxes", obj_Sideline_Left);
+sideline_right = instance_create_layer(room_width + 180, 0, "Letterboxes", obj_Sideline_Right);
 
-distraction_1 = instance_create_layer(room_width / 2, room_height * 1 / 3, "Instances", obj_Distraction);
-distraction_2 = instance_create_layer(room_width / 2, room_height / 2, "Instances", obj_Distraction);
-distraction_3 = instance_create_layer(room_width / 2, room_height * 2 / 3, "Instances", obj_Distraction);
+distraction_manager = instance_create_layer(not_set, not_set, "Controllers", obj_Distraction_Manager);

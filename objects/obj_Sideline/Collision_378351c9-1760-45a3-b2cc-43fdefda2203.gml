@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (y < other.y + other.radius){
-	wly_speed -= 0.5;
+wly_speed -= 1;
+if (wly_speed < -0.2){
+	wly_speed = -0.2;
 }

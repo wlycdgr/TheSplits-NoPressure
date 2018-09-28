@@ -5,16 +5,6 @@
     "name": "obj_Sideline_Left",
     "eventList": [
         {
-            "id": "868bf32b-281b-4235-a4df-976d3ded3152",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "d345ea43-9255-40d5-89c6-1fd790a85320"
-        },
-        {
             "id": "49996ea0-af0d-4fac-a906-56b01e183e81",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -27,7 +17,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "0611ab27-8f49-4ce6-95fc-7d6e0eeafb07",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

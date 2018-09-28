@@ -38,7 +38,7 @@ case gs_playing:
 	
 	if (player_avatar.dead || player_reticle.dead)
 		{ event_user(0); }
-		
+
 	break;
 		
 case gs_restarting:
