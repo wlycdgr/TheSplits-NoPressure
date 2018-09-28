@@ -11,7 +11,9 @@ if (!select){
 	
 		if (
 			gamepad_button_check_pressed(i, gp_face1) ||
-			gamepad_button_check_pressed(i, gp_face3)
+			gamepad_button_check_pressed(i, gp_face2) ||
+			gamepad_button_check_pressed(i, gp_face3) ||
+			gamepad_button_check_pressed(i, gp_face4)
 		){
 			select = true;
 		}
