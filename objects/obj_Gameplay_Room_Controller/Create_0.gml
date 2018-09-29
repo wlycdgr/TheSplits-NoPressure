@@ -12,13 +12,17 @@ paused_sliding_ribbon = instance_create_layer(
 
 
 // NO PRESSURE SPECIFIC
+global.letterbox_margin = 40;
+
+
+
 instance_create_layer(not_set, not_set, "Player", obj_Player_Avatar);
 instance_create_layer(not_set, not_set, "PLayer", obj_Player_Reticle);
 
 instance_create_layer(not_set, not_set, "Player", obj_Player_Bullet_Manager);
 
-instance_create_layer(0, -room_height - 180, "Letterboxes", obj_Letterbox_Top);
-instance_create_layer(0, room_height + 180, "Letterboxes", obj_Letterbox_Bottom);
+instance_create_layer(0, -room_height + global.letterbox_margin, "Letterboxes", obj_Letterbox_Top);
+instance_create_layer(0, room_height - global.letterbox_margin, "Letterboxes", obj_Letterbox_Bottom);
 instance_create_layer(-188, 0, "Letterboxes", obj_Sideline_Left);
 instance_create_layer(room_width + 180, 0, "Letterboxes", obj_Sideline_Right);
 

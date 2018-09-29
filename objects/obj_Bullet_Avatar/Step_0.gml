@@ -3,7 +3,13 @@
 if (dead){
 	instance_destroy();
 }
-else {
+
+if (!dead){
 	// Letterbox collisions
 	event_user(0);
+}
+
+if (!dead){
+	// Sideline collisions
+	event_user(1);
 }
