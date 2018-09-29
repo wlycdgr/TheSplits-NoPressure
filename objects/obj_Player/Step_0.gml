@@ -3,7 +3,7 @@
 
 // Grow 
 if (radius < max_radius){
-	radius += 0.2;
+	radius += grow_per_frame;
 	fully_charged = false;
 	
 	if (radius >= max_radius){

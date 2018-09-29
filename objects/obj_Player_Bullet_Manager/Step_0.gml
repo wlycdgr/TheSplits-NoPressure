@@ -19,7 +19,10 @@ if (
 	obj_Player_Avatar.radius = obj_Player_Avatar.min_radius;
 }
 
-if (gamepad_button_check_pressed(0, reticle_fire_button)){
+if (
+	gamepad_button_check_pressed(0, reticle_fire_button) &&
+	obj_Player_Reticle.fully_charged
+){
 	var reticle_bullet = instance_create_layer(
 		obj_Player_Reticle.x, obj_Player_Reticle.y, 
 		"Bullets", 
@@ -30,11 +33,7 @@ if (gamepad_button_check_pressed(0, reticle_fire_button)){
 		obj_Player_Reticle.x, obj_Player_Reticle.y, 
 		obj_Player_Avatar.x, obj_Player_Avatar.y
 	);
-	
-	if (obj_Player_Reticle.fully_charged){
-		reticle_bullet.fully_charged = true;
-		obj_Player_Reticle.fully_charged = false;
-	}
-	
+
+	obj_Player_Reticle.fully_charged = false;
 	obj_Player_Reticle.radius = obj_Player_Reticle.min_radius;
 }

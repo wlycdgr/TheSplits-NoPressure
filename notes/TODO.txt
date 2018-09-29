@@ -9,7 +9,7 @@ DONE reticle vs distractions - DEATH
 
 DONE avatar bullet vs letterbox PUSH BACK
 DONE avatar bullet vs sidelines PUSH BACK A LOT
-reticle bullet vs letterbox PUSH BACK A LITTLE
+DONE reticle bullet vs letterbox PUSH BACK A LITTLE
 reticle bullet vs. sidelines PUSH BACK
 
 avatar bullet vs distraction - SET RADIUS TO MIN, POINTS, MORE IF FURTHER

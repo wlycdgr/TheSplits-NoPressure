@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
-max_radius = 15;
+max_radius = 10;
 min_radius = 5;
-radius = 10;
+radius = 5;
+grow_per_frame = 0.3;
 
 wly_speed = 20;
 

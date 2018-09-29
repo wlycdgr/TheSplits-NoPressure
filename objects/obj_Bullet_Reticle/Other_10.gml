@@ -1,5 +1,4 @@
 /// @description Step -> Letterbox collisions
-
 var letterbox;
 
 if (y - r <= obj_Letterbox_Top.y + room_height){
@@ -14,6 +13,6 @@ else if (y + r >= obj_Letterbox_Bottom.y){
 if (dead){
 	letterbox.wly_speed = max(
 		-1,
-		letterbox.wly_speed - 1
+		letterbox.wly_speed - 0.05
 	);
 }
