@@ -16,7 +16,8 @@ for (var i = 0; i < distractions_count; i++){
 			
 			if (bullet.already_collided_with_line[i]) continue;
 			
-			distractions_lines_highlighted[i] = !distractions_lines_highlighted[i];
+			//distractions_lines_highlighted[i] = !distractions_lines_highlighted[i];
+			line_alphas[i] += 0.2;
 			
 			bullet.already_collided_with_line[i] = true;
 		}
@@ -24,9 +25,10 @@ for (var i = 0; i < distractions_count; i++){
 	ds_list_destroy(_list);
 }
 
-for (var i = 0; i < distractions_count; i++){
+/*
+for (var i = 0; i < distractions_lines_count; i++){
 	distractions_lines_color[i] = distractions_lines_highlighted[i] ? 
 		highlighted_color :
 		regular_color;
 }
-		
+*/

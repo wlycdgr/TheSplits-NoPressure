@@ -5,6 +5,9 @@ randomise();
 // nice circles for No Pressure
 draw_set_circle_precision(64);
 
+// activate maximum available anti-aliasing and vsync
+display_reset(8, true);
+
 // Load up our macros and set our global vars
 script_execute(scr_MACROS_and_GLOBALS);
 script_execute(scr_Splitsfont_Reset_DefaultTweaks);

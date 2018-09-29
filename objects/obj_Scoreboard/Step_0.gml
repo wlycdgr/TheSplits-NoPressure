@@ -4,6 +4,7 @@ if (gs_playing == global.game.state) {
 		points += (target_points - points) / 10;
 	}
 	
+	
 	//
 	var distance_between_avatar_and_reticle =
 		point_distance(
