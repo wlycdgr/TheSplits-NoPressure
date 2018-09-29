@@ -7,10 +7,10 @@ distractions vs. distractions DONE, BOUNCE
 DONE avatar vs distractions - DEATH
 DONE reticle vs distractions - DEATH
 
-avatar bullet vs letterbox PUSH BACK, MORE IF FULLY CHARGED
-avatar bullet vs sidelines PUSH BACK A LOT, MORE IF FULLY CHARGED - INEFFICIENT
-reticle bullet vs letterbox PUSH BACK A LITTLE, A LIL MORE IF FULLY CHARGED - INEFFECTIVE
-reticle bullet vs. sidelines PUSH BACK, MORE IF FULLY CHARGED
+DONE avatar bullet vs letterbox PUSH BACK
+DONE avatar bullet vs sidelines PUSH BACK A LOT
+reticle bullet vs letterbox PUSH BACK A LITTLE
+reticle bullet vs. sidelines PUSH BACK
 
 avatar bullet vs distraction - SET RADIUS TO MIN, POINTS, MORE IF FURTHER
 reticle bullet vs distraction - SET RADIUS TO MIN, POINTS, MORE IF FURTHER
