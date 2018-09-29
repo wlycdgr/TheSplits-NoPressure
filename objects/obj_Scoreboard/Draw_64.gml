@@ -1,4 +1,6 @@
 /// @description Draw the score info
+draw_set_color(c_green);
+
 var score_as_string = string(floor(points));
 var score_as_string_len = string_length(score_as_string);
 for (var i = 0; i < score_as_string_len; i++) {

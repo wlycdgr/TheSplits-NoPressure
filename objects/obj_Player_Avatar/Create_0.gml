@@ -2,7 +2,8 @@
 // You can write your code in this editor
 max_radius = 30;
 min_radius = 10;
-radius = 20;
+rh = 20;
+rv = 20;
 
 wly_speed = 5;
 

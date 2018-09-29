@@ -30,3 +30,5 @@ sideline_left = instance_create_layer(-188, 0, "Letterboxes", obj_Sideline_Left)
 sideline_right = instance_create_layer(room_width + 180, 0, "Letterboxes", obj_Sideline_Right);
 
 distraction_manager = instance_create_layer(not_set, not_set, "Controllers", obj_Distraction_Manager);
+
+scoreboard = instance_create_layer(not_set, not_set, "Menus", obj_Scoreboard);
