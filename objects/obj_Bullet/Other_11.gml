@@ -14,6 +14,6 @@ else if (x + r >= obj_Sideline_Right.x){
 if (dead){
 	sideline.wly_speed = max(
 		-4,
-		sideline.wly_speed - 2
+		sideline.wly_speed - sideline_push
 	);
 }
