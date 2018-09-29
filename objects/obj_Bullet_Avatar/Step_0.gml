@@ -3,3 +3,7 @@
 if (dead){
 	instance_destroy();
 }
+else {
+	// Letterbox collisions
+	event_user(0);
+}

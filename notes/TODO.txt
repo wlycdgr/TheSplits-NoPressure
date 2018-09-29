@@ -19,6 +19,9 @@ avatar bullet vs distraction line - FLIP COLOR
 reticle bullet vs distraction line - FLIP COLOR
 if all colors lit up - triangle inside lights up, points bonus for being inside it
 
+hitting distractions charges lines
+if you acdtivate charged line while bullet is crossing it, it will give extra power to bullet
+
 		
 
 		

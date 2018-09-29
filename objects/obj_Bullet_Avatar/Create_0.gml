@@ -5,3 +5,4 @@ r = 12;
 color = c_black;
 dead = false;
 already_collided_with_line = [false, false, false];
+fully_charged = false;
