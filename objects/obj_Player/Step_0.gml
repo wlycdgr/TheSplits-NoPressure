@@ -2,22 +2,14 @@
 // You can write your code in this editor
 
 // Grow 
-if (rh < max_radius){
-	rh += 0.2;
-	if (rh >= max_radius){
-		rh = max_radius;
+if (radius < max_radius){
+	radius += 0.2;
+	fully_charged = false;
+	
+	if (radius >= max_radius){
+		radius = max_radius;
+		fully_charged = true;
 	}
-}
-
-if (rv < max_radius){
-	rv += 0.2;
-	if (rv >= max_radius){
-		rv = max_radius;
-	}
-}
-
-if (rv == rh == max_radius){
-	fully_charged = true;
 }
 
 // Move 

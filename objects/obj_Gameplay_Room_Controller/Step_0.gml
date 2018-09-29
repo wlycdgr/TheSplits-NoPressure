@@ -1,15 +1,4 @@
 /// @description Update based on state
-if (global.steam_overlay_activated) {
-	steam_overlay_activated_last_step = true;
-	exit;
-}
-
-if (steam_overlay_activated_last_step) {
-	{ event_user(1); } // on pause
-}
-
-steam_overlay_activated_last_step = false;
-
 switch (state) {
 case gs_fading_out:
 	if (
@@ -36,7 +25,7 @@ case gs_playing:
 	if (global.input_tracker.is_pause_pressed) 
 		{ event_user(1); } // on pause
 	
-	if (player_avatar.dead || player_reticle.dead)
+	if (obj_Player_Avatar.dead || obj_Player_Reticle.dead)
 		{ event_user(0); }
 
 	break;

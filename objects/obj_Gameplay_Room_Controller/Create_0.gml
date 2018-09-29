@@ -10,25 +10,16 @@ paused_sliding_ribbon = instance_create_layer(
 	window_width, sliding_ribbon_y, "SlidingRibbons", obj_Paused_Sliding_Ribbon
 );
 
-// So we can pause the game if the Steam overlay
-// has just been deactivated
-steam_overlay_activated_this_step = false;
-steam_overlay_activated_last_step = false;
 
 // NO PRESSURE SPECIFIC
-player_avatar = instance_create_layer(not_set, not_set, "Player", obj_Player_Avatar);
-player_reticle = instance_create_layer(not_set, not_set, "PLayer", obj_Player_Reticle);
+instance_create_layer(not_set, not_set, "Player", obj_Player_Avatar);
+instance_create_layer(not_set, not_set, "PLayer", obj_Player_Reticle);
 
-player_bullet_manager = instance_create_layer(not_set, not_set, "Player", obj_Player_Bullet_Manager);
-player_bullet_manager.avatar = player_avatar;
-player_bullet_manager.reticle = player_reticle;
+instance_create_layer(not_set, not_set, "Player", obj_Player_Bullet_Manager);
 
-letterbox_top = instance_create_layer(0, -room_height - 180, "Letterboxes", obj_Letterbox_Top);
-letterbot_bottom = instance_create_layer(0, room_height + 180, "Letterboxes", obj_Letterbox_Bottom);
+instance_create_layer(0, -room_height - 180, "Letterboxes", obj_Letterbox_Top);
+instance_create_layer(0, room_height + 180, "Letterboxes", obj_Letterbox_Bottom);
+instance_create_layer(-188, 0, "Letterboxes", obj_Sideline_Left);
+instance_create_layer(room_width + 180, 0, "Letterboxes", obj_Sideline_Right);
 
-sideline_left = instance_create_layer(-188, 0, "Letterboxes", obj_Sideline_Left);
-sideline_right = instance_create_layer(room_width + 180, 0, "Letterboxes", obj_Sideline_Right);
-
-distraction_manager = instance_create_layer(not_set, not_set, "Controllers", obj_Distraction_Manager);
-
-scoreboard = instance_create_layer(not_set, not_set, "Menus", obj_Scoreboard);
+instance_create_layer(not_set, not_set, "Controllers", obj_Distraction_Manager);
