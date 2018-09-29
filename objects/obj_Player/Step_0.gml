@@ -6,11 +6,16 @@ if (radius < max_radius){
 	radius += grow_per_frame;
 	fully_charged = false;
 	
-	if (radius >= max_radius){
-		radius = max_radius;
+	if (radius >= full_charge_radius){
 		fully_charged = true;
 		
-		scr_Play_SFX(snd_fx_SoftPop);
+		if (
+			x == obj_Player_Avatar.x &&
+			!cue_played
+		){
+			scr_Play_SFX(snd_fx_SoftPop);
+			cue_played = true;
+		}
 	}
 }
 

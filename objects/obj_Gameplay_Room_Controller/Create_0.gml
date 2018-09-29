@@ -16,7 +16,6 @@ global.letterbox_margin = 40;
 global.sideline_margin = 70;
 
 
-
 instance_create_layer(not_set, not_set, "Player", obj_Player_Avatar);
 instance_create_layer(not_set, not_set, "PLayer", obj_Player_Reticle);
 
@@ -28,3 +27,5 @@ instance_create_layer(global.sideline_margin - 8, 0, "Letterboxes", obj_Sideline
 instance_create_layer(room_width - global.sideline_margin, 0, "Letterboxes", obj_Sideline_Right);
 
 instance_create_layer(not_set, not_set, "Controllers", obj_Distraction_Manager);
+
+instance_create_layer(not_set, not_set, "Controllers", obj_Margin_Tightener);

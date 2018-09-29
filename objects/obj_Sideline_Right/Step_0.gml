@@ -2,6 +2,6 @@
 
 event_inherited();
 
-if (x > (room_width - global.sideline_margin)) {
-	x = room_width - global.sideline_margin;
+if (x > (room_width - global.sideline_margin - 8)) {
+	x = room_width - global.sideline_margin - 8 ;
 }

@@ -24,5 +24,6 @@ if (
 	}
 	
 	_shooter.fully_charged = false;
+	_shooter.cue_played = false;
 	_shooter.radius = _shooter.min_radius;
 }

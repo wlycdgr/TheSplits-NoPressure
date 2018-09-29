@@ -1,4 +1,6 @@
 /// @description GameOver
 
 // handle score upload/saving
-highscore_add("Bananas Foster", target_points);
+if (target_points > current_high_score){
+	highscore_add("Bananas Foster", target_points);
+}

@@ -2,11 +2,7 @@
 // You can write your code in this editor
 event_inherited();
 
-speed = 15;
-
-r = 5;
-
-color = c_black;
-
-sideline_push = 0.2;
-letterbox_push = 0.1;
+if (fully_charged){
+	draw_set_color(c_white);
+	draw_circle(x, y, 1, false);
+}

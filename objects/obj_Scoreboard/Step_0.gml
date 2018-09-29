@@ -14,4 +14,8 @@ if (gs_playing == global.game.state) {
 		obj_Player_Avatar.radius + obj_Player_Reticle.radius;
 		
 	target_points += 0.01 * max(0, 100000 / max(1, distance_between_avatar_and_reticle ^ 2));
+	
+	if (points > current_high_score){
+		current_high_score = points;
+	}
 }

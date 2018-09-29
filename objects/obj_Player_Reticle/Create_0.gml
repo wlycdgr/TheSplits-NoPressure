@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 max_radius = 10;
+full_charge_radius = 10;
 min_radius = 5;
 radius = 5;
 grow_per_frame = 0.3;
