@@ -9,6 +9,8 @@ vspeed *= choose(-1, 1);
 
 r = 8;
 
+color = make_color_rgb(255, 57, 103); // FF enemy color 
+
 //direction = random(359);
 //speed = 4;
 

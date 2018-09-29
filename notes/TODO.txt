@@ -4,10 +4,8 @@ reticle vs. letterboxes, vs. sidelines DONE, DEATH
 distractions vs. letterboxes, vs. sidielines - DONE, BOUNCE
 distractions vs. distractions DONE, BOUNCE
 
-
-
-avatar vs distractions - DEATH
-reticle vs distractions - DEATH
+DONE avatar vs distractions - DEATH
+DONE reticle vs distractions - DEATH
 
 avatar bullet vs letterbox PUSH BACK, MORE IF FULLY CHARGED
 avatar bullet vs sidelines PUSH BACK A LOT, MORE IF FULLY CHARGED - INEFFICIENT

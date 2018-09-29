@@ -11,3 +11,9 @@ event_user(1);
 
 // Avatar bullet collisions
 event_user(2);
+
+// Avatar collisions
+event_user(3);
+
+// Reticle collisions
+event_user(4);
