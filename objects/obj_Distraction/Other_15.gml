@@ -1,10 +1,10 @@
-/// @description Step -> Avatar bullet collisions
+/// @description Step -> Reticle bullet collisions
 
-var bullet_count = instance_number(obj_Bullet_Avatar);
+var bullet_count = instance_number(obj_Bullet_Reticle);
 var bullet;
 
 for (var i = 0; i < bullet_count; i++){
-	bullet = instance_find(obj_Bullet_Avatar, i);
+	bullet = instance_find(obj_Bullet_Reticle, i);
 	
 	if (bullet.dead) continue;
 	

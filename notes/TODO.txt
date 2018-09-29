@@ -12,16 +12,12 @@ DONE avatar bullet vs sidelines PUSH BACK A LOT
 DONE reticle bullet vs letterbox PUSH BACK A LITTLE
 DONE reticle bullet vs. sidelines PUSH BACK
 
-avatar bullet vs distraction - SET RADIUS TO MIN, POINTS, MORE IF FURTHER
-reticle bullet vs distraction - SET RADIUS TO MIN, POINTS, MORE IF FURTHER
+avatar bullet vs distraction - SET RADIUS TO MIN - DONE, POINTS
+reticle bullet vs distraction - SET RADIUS TO MIN - DONE, POINTS
 
-avatar bullet vs distraction line - FLIP COLOR
-reticle bullet vs distraction line - FLIP COLOR
-if all colors lit up - triangle inside lights up, points bonus for being inside it
-
-hitting distractions charges lines
-if you acdtivate charged line while bullet is crossing it, it will give extra power to bullet
-
+avatar bullet vs distraction line - BUMP ALPHA, ACTIVATE MAGENTA MID LINE IF FULL ALPHA
+reticle bullet vs distraction line - BUMP ALPHA, ACTIVATE...
+each line hit is points
 		
 
 		

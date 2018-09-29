@@ -10,3 +10,8 @@ for (var i = 0; i < score_as_string_len; i++) {
 	);
 }
 
+//draw_set_color(c_green);
+//draw_highscore(
+//	10, 100,
+//	300, 200
+//);

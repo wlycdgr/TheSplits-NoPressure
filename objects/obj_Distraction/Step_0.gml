@@ -1,7 +1,16 @@
 /// @description Collisions, growth
 // You can write your code in this editor
 
-r += 0.01;
+if (target_r < r){
+	r -= 0.1;
+	if (r < min_r){
+		r = min_r;
+		target_r = 100;
+	}
+}
+else {
+	r += 0.01;
+}
 
 // Letterbox collisions
 event_user(0);
@@ -17,3 +26,6 @@ event_user(3);
 
 // Reticle collisions
 event_user(4);
+
+// Reticle bullet collisions
+event_user(5);

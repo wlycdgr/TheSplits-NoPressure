@@ -9,6 +9,8 @@ if (radius < max_radius){
 	if (radius >= max_radius){
 		radius = max_radius;
 		fully_charged = true;
+		
+		scr_Play_SFX(snd_fx_SoftPop);
 	}
 }
 

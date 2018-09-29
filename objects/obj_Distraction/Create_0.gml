@@ -7,7 +7,9 @@ vspeed = total_speed - hspeed;
 hspeed *= choose(-1, 1);
 vspeed *= choose(-1, 1);
 
-r = 8;
+r = 12;
+min_r = 12;
+target_r = 100;
 
 color = make_color_rgb(255, 57, 103); // FF enemy color 
 
